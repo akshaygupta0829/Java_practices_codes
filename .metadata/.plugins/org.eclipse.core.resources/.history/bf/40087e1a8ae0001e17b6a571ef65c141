@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Registering bean of type HelloService with some ID: myBean -->
+	<bean id="myBean" class="day7.WelcomeService"/>
+	<bean id="myBean2" class="day7.HelloService"/>
+	<bean id="myBean3" class="day8.UserService" lazy-init="true"/>
+	<bean id="myBean4" class="day8.UserService" />
+	<bean id="myBean5" class="day8.UserService" scope="prototype"/>
+	
+	<bean id="myBean6" class="day8.UserGreetingService">
+		<property name="userName" value="Akshay" />
+		<property name="greetingMessage" value="Good Morning" />
+		<property name="userAge" value="24" />
+	</bean>
+	
+	<bean id="myBean7" class="day8.UserGreetingService">
+		<constructor-arg value="Akshay" />
+		<constructor-arg value="Good Afternoon" />
+		<constructor-arg value="23" />
+	</bean>
+	
+	<bean id="myBean8" class="day8.UserGreetingService">
+		<constructor-arg value="Shiv" index="0"/>
+		<constructor-arg value="Good Night" index="2"/>
+		<constructor-arg value="24" index="1"/>
+	</bean>
+	
+	<bean id="address1" class="day8.Address">
+		<property name="city" value="Mumbai"/>
+		<property name="pinCode" value="435414"/>
+	</bean>
+	
+	<bean id="address2" class="day8.Address">
+		<property name="city" value="Jalna"/>
+		<property name="pinCode" value="431114"/>
+	</bean>
+	
+	<bean id="myCustomer" class="day8.Customer">
+		<property name="customerId" value="1"/>
+		<property name="name" value="RajNandini"/>
+		<property name="permanentAddress" ref="address2"/>
+	</bean>
+	
+	<bean id="student" class="day.Student">
+		<property name="StudentId" value="101"/>
+		<property name="StudentName" value="Sanika"/>
+		<property name="StudentAddress" ref="Nashik"/>
+	</bean>
+    
+</beans>

@@ -1,0 +1,7 @@
+127.0.0.1 - - [01/Feb/2024:18:25:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:25:03 +0530] "GET /WebProject/myLifeCycleServlet HTTP/1.1" 200 41
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:25:04 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:25:58 +0530] "GET /WebProject/myLifeCycleServlet HTTP/1.1" 200 41
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:25:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:59:57 +0530] "GET /WebProject/myLifeCycleServlet HTTP/1.1" 200 41
+0:0:0:0:0:0:0:1 - - [01/Feb/2024:18:59:57 +0530] "GET /favicon.ico HTTP/1.1" 404 762

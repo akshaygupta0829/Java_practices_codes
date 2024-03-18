@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean id="myCourse" class="todo.CourseService" lazy-init="true"/>
+    
+    <bean id="setter" class="todo.CourseEntityService">
+		<property name="courseName" value="Core Java" />
+		<property name="provider" value="prakash Coder" />
+		<property name="fees" value="24000" />
+	</bean>
+    
+    <bean id="constructor" class="todo.CourseEntityService">
+   		<constructor-arg value="SalesForce"/>
+   		<constructor-arg value="Rubrixx"/>
+   		<constructor-arg value="10000"/>
+    </bean>
+    
+ </beans>

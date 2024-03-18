@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace\"/>
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace\SpringExample"/>
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace"/>
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace\Advanced Java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="project"/>
+			<item value="example"/>
+			<item value="exaample"/>
+			<item value="example1"/>
+			<item value="projectSpring"/>
+			<item value="SimpleProject"/>
+			<item value="ProjectSpring"/>
+			<item value="Spring"/>
+			<item value="spring"/>
+			<item value="SpringStudent"/>
+		</list>
+		<list key="name">
+			<item value="PracticeSpringProject"/>
+			<item value="SpringExample1"/>
+			<item value="SpringProject2"/>
+			<item value="SpringProject1"/>
+			<item value="SpringProjects"/>
+			<item value="SpringExampleStudent"/>
+			<item value="SpringStudent"/>
+		</list>
+		<list key="artifactId">
+			<item value="PracticeSpringProject"/>
+			<item value="Example2"/>
+			<item value="Example1"/>
+			<item value="ExamplesPro"/>
+			<item value="ExampleProject"/>
+			<item value="ProjectSimple"/>
+			<item value="SpringProject"/>
+			<item value="Spring"/>
+			<item value="SspringProject"/>
+			<item value="SpringExample"/>
+			<item value="exampleSpring"/>
+			<item value="SpringStudent"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Akshay Gupta\Downloads\Test"/>
+			<item value="C:\Users\Akshay Gupta\OneDrive\Desktop\Cdac Project\LosProject"/>
+			<item value="C:\Users\Akshay Gupta\OneDrive\Desktop\Cdac Project\FinalProject"/>
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace\Advanced Java"/>
+			<item value="C:\Users\Akshay Gupta\eclipse-workspace\SpringRestProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

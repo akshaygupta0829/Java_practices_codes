@@ -1,0 +1,21 @@
+course_info.txtCourse_Information
+1.Course_Name = Java,
+Duration = 50 hrs,
+Provider_Name = Udemy,
+Fees = 10000
+
+2.Course_Name = Advanced Java,
+Duration = 40 hrs,
+Provider_Name = Udemy,
+Fees = 8000
+
+3.Course_Name = C++,
+Duration = 40 hrs,
+Provider_Name = Coursera,
+Fees = 6000
+
+4.Course_Name = C Programming,
+Duration = 55 hrs,
+Provider_Name = GreeksGreek,
+Fees = 5000 
+

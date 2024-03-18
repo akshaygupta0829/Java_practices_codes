@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "day6.beans.Course" table="Course">
+      <id name = "courseId" type = "int" column="courseId"/>            
+      <property name = "title" column = "title" type = "string"/>
+      <property name = "duration" column = "duration" type = "int"/>
+      <property name = "provider" type = "string">
+      	<column name="provider"></column>
+      </property>     
+      <property name = "fees" type = "int">
+      	<column name="fees"></column>
+      </property>     
+   </class>
+</hibernate-mapping>

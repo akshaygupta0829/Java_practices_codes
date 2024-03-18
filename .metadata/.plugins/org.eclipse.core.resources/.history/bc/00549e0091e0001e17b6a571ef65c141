@@ -1,0 +1,47 @@
+package day;
+
+
+public class Student implements GreetingService{
+	private int studentId;
+	private String studentName;
+	private String studentAddress;
+	
+	public Student() {
+		
+	}
+
+	public Student(int studentId, String studentName, String studentAddress) {
+		System.out.println("This my Student class");
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentAddress = studentAddress;
+	}
+		
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		studentName = studentName;
+	}
+	public String getStudentAddress() {
+		return studentAddress;
+	}
+	public void setStudentAddress(String studentAddress) {
+		studentAddress = studentAddress;
+	}
+	
+	
+	
+	public String sayGreeting() {
+		String finalMessage = "Student Id" + studentId + " " + "name" + studentName + ",address is " + studentAddress;
+		return finalMessage;
+	}	
+	
+
+}

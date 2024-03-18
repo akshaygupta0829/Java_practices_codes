@@ -1,0 +1,4 @@
+127.0.0.1 - - [12/Mar/2024:15:18:54 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Mar/2024:15:18:55 +0530] "GET /SpringMVCProject/WEB-INF/classes/day10/SpringMvcWebApplicationInitializer.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [12/Mar/2024:15:18:55 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Mar/2024:15:19:25 +0530] "GET /SpringMVCProject/WEB-INF/classes/day10/SpringMvcWebApplicationInitializer.java HTTP/1.1" 404 682

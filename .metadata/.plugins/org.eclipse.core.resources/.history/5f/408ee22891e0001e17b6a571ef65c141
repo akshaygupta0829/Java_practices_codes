@@ -1,0 +1,6 @@
+package day;
+
+public interface GreetingService {
+
+	String sayGreeting();
+}

@@ -1,0 +1,21 @@
+package day;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String filePath = "spring-config.xml";
+		ApplicationContext ctx = new ClassPathXmlApplicationContext(filePath);
+		
+		Object obj = ctx.getBean("student");
+		Student gs = (Student)obj;
+		String reply = gs.display()
+		System.out.println(reply);
+		
+	}
+
+}

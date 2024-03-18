@@ -1,0 +1,44 @@
+package day;
+
+import day7.GreetingService;
+
+public class Student implements GreetingService {
+	private int StudentId;
+	private String StudentName;
+	private String StudentAddress;
+	public int getStudentId() {
+		return StudentId;
+	}
+	public void setStudentId(int studentId) {
+		StudentId = studentId;
+	}
+	public String getStudentName() {
+		return StudentName;
+	}
+	public void setStudentName(String studentName) {
+		StudentName = studentName;
+	}
+	public String getStudentAddress() {
+		return StudentAddress;
+	}
+	public void setStudentAddress(String studentAddress) {
+		StudentAddress = studentAddress;
+	}
+	public Student(int StudentId, String StudentName, String StudentAddress) {
+		System.out.println("This my Student class");
+		this.StudentId = StudentId;
+		this.StudentName = StudentName;
+		this.StudentAddress = StudentAddress;
+	}
+	public Student() {
+	
+	}
+	
+	@Override
+	public String sayGreeting() {
+		String finalMessage = "Student Id" + StudentId + " " + "name" + StudentName + ", your address is " + StudentAddress;
+		return finalMessage;
+	}	
+	
+
+}
